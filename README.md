@@ -120,16 +120,15 @@ struct engineer {
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ENGRahsepar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f1722&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=ENGRahsepar&theme=tokyonight&hide_border=true&background=0F1722&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="Streak"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=ENGRahsepar&theme=tokyonight&hide_border=true&background=0F1722&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="Streak"/>
 </p>
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ENGRahsepar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f1722&title_color=00d4ff&text_color=c9d1d9&langs_count=8" alt="Top Langs"/>
-  <img width="49%" src="https://github-profile-trophy.vercel.app/?username=ENGRahsepar&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="Trophies"/>
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ENGRahsepar&theme=tokyo-night&hide_border=true&bg_color=0f1722&color=00d4ff&line=00d4ff&point=ffffff" alt="Activity Graph"/>
+  <img width="98%" src="https://ghchart.rshah.org/00d4ff/ENGRahsepar" alt="Contribution Chart"/>
 </p>
 
 ---

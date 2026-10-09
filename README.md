@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f1722,100:00d4ff&height=200&section=header&text=A.Rahsepar&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Network%20Engineer%20%E2%80%A2%20Kernel%20Developer%20%E2%80%A2%20Android%20%E2%80%A2%20Linux&descAlignY=60&descSize=16" width="100%"/>
 
 <p align="center">
-  <a href="https://github.com/ENGRahsepar"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Linux+%26+Android+Engineer+%7C+6%2B+Years+Experience;Kernel+Developer+%7C+MT6895+xaga+%7C+5.10+LTS;Network+Engineer+%7C+VLESS+%2F+Infra+%2F+Panels;ESK+Kernel+%7C+Infinity+X+A17+%7C+ReSukiSU+%2F+SUSFS" alt="Typing SVG" /></a>
+  <a href="https://github.com/ENGRahsepar"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Linux+%26+Android+Engineer+%7C+6%2B+Years+Experience;Kernel+Developer+%7C+MT6895+xaga+%7C+5.10+LTS;Network+Engineer+%7C+MikroTik+%2F+OpenWRT+%2F+ZLT+X28;ESK+Kernel+%7C+Infinity+X+A17+%7C+ReSukiSU+%2F+SUSFS" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -21,16 +21,16 @@ struct engineer {
     char *role[] = {"Network Engineer", "Linux & Android Engineer", "Kernel Developer"};
     int  experience_years = 6;
     char *base = "Shiraz, Iran";
-    char *daily_driver[] = {"Linux 5.10 LTS", "Android 16/17", "MTK MT6895 (xaga)", "C", "VLESS / Infra"};
-    char *currently = "ESK Kernel Reborn + Infinity X A17 v4.0 for POCO X4 GT";
+    char *daily_driver[] = {"Linux 5.10 LTS", "Android 16/17", "MTK MT6895 (xaga)", "C", "MikroTik / OpenWRT"};
+    char *currently = "Porting OpenWRT for ZLT X28 + ESK Kernel + Infinity X A17";
 };
 ```
 
-> 6 years building and breaking **Linux & Android devices**. These days I'm deep in **custom kernels (ESK / 5.10 LTS)**, **Android device bring-up for Xiaomi xaga (MT6895)**, and **network infrastructure / VLESS panels**.
+> 6 years building and breaking **Linux & Android devices**. These days I'm deep in **custom kernels (ESK / 5.10 LTS)**, **Android device bring-up for Xiaomi xaga (MT6895)**, and **network engineering — MikroTik / RouterOS + OpenWRT porting (ZLT X28)**.
 
 - 🔥 Maintaining **ESK-Kernel-Reborn** for xaga family — POCO X4 GT / Redmi Note 11T Pro / K50i
 - 📱 Device maintainer — **Infinity X A17 v4.0**: device trees, vendor, HALs, sepolicy, ViPER, Dolby
-- 🌐 Network engineer — single-file VLESS panels, JWT auth, traffic shaping, clean-IP scanner, Telegram bots
+- 🌐 Network engineer — **MikroTik / RouterOS**, firewall / NAT / QoS / VPN, **OpenWRT porting & bring-up for ZLT X28**
 - 🛠️ Low-level tinkerer — preloader, LK, sec_cfg, MTD, eng firmware (check my local lab 👀)
 
 ---
@@ -57,12 +57,14 @@ struct engineer {
 <img src="https://img.shields.io/badge/HAL-Audio_Camera_Dolby-0f1722?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SuSFS-ReSukiSU_LXC-8b5cf6?style=for-the-badge"/>
 
-**Network / Backend**
+**Network / RouterOS**
 <br/>
+<img src="https://img.shields.io/badge/MikroTik-293239?style=for-the-badge&logo=mikrotik&logoColor=white"/>
+<img src="https://img.shields.io/badge/RouterOS-CC0000?style=for-the-badge&logo=mikrotik&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenWRT-00B5E2?style=for-the-badge&logo=openwrt&logoColor=white"/>
+<img src="https://img.shields.io/badge/ZLT_X28-Port_In_Progress-0f1722?style=for-the-badge&logo=openwrt&logoColor=00d4ff"/>
+<img src="https://img.shields.io/badge/LuCI-Firewall_NAT_QoS_VPN-0f1722?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/VLESS-WebSocket_TLS-0f1722?style=for-the-badge&logo=cloudflare&logoColor=00d4ff"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 **Tools**
 <br/>
@@ -102,12 +104,15 @@ struct engineer {
 | **[hardware_dolby](https://github.com/ENGRahsepar/hardware_dolby)** | Dolby |
 | **[miuicamera-xaga](https://github.com/ENGRahsepar/miuicamera-xaga)** | MIUI Camera |
 
-#### 3️⃣ Network — Panels & Tunnels
+#### 3️⃣ Network — MikroTik & OpenWRT
 
-| Project | Description | Stack |
+> Currently focused on real infra work — **porting OpenWRT for ZLT X28** + MikroTik production nets.
+
+| Focus | Details | Stack |
 |---|---|---|
-| **[SulgX-Panel](https://github.com/ENGRahsepar/SulgX-Panel)** | Single-file VLESS panel via WS+TLS · Responsive UI · JWT auth · per-user BW limits · clean-IP scanner · bilingual Telegram bot · realtime charts · Render/Railway ready | `Python` |
-| **[edgetunnel](https://github.com/ENGRahsepar/edgetunnel)** | VLESS / Trojan / SS multi-panel worker | `JavaScript` |
+| **OpenWRT Port — ZLT X28** 🚧 | Board bring-up, DTS, NAND / modem / Wi-Fi drivers, LuCI, sysupgrade | `OpenWRT` `Linux` `DTS` `LuCI` |
+| **MikroTik / RouterOS** | Firewall / NAT, QoS / Queue, VPN / WireGuard, CAPsMAN, monitoring | `RouterOS` `Firewall` `QoS` |
+| **Infra / Automation** | Net install scripts, backups, Python tooling for routers | `Python` `Bash` |
 
 ---
 
@@ -131,9 +136,10 @@ struct engineer {
 
 ### 🎯 Currently
 
+- 📡 Porting **OpenWRT for ZLT X28** — DTS, drivers, NAND, modem, Wi-Fi, LuCI
 - 🔧 Shipping **ESK Reborn** — Android 16/17 on 5.10 LTS, tested for daily + gaming
 - 📦 Maintaining **Infinity X A17 v4.0** trees for xaga
-- 🌐 Hardening **SulgX Panel** — JWT, BW limits, clean-IP, bot
+- 📶 Building **MikroTik** setups — Firewall / NAT / QoS / WireGuard VPN
 - 🧪 Lab: preloader / LK / eng firmware, MTD rebuilds, bypass-charger experiments on MTK
 
 ---

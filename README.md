@@ -104,6 +104,26 @@ struct engineer {
 | **[hardware_dolby](https://github.com/ENGRahsepar/hardware_dolby)** | Dolby |
 | **[miuicamera-xaga](https://github.com/ENGRahsepar/miuicamera-xaga)** | MIUI Camera |
 
+#### 🩹 Infinity X A17 — MTK IMS fix pack (FIX 1–11)
+
+> Everything MTK/xaga breaks on A17, root-caused at source level and packaged as an
+> idempotent maintenance kit — re-applied after every `repo sync`, verified by script,
+> and **live-validated on device**:
+
+| Project | Description |
+|---|---|
+| **[infinity-xaga-fixes](https://github.com/ENGRahsepar/infinity-xaga-fixes)** | 🧰 **MTK_IMS_FIXES kit** — `apply_fixes.sh` + `verify_fixes.sh` + snippets + full debugging chronicle |
+| **[android_vendor_mediatek_ims](https://github.com/ENGRahsepar/android_vendor_mediatek_ims)** | IMS tree with VoLTE availability overrides (both slots, worldwide) |
+
+| Fix | What it solves |
+|---|---|
+| **FIX 1–2** | vtservice stack drop → VoLTE dead on all A17 builds (`media.VTS` never starts) |
+| **FIX 3–5** | IMS availability overrides + EngineerMode APK/VINTF restore |
+| **FIX 8** | app_zygote sepolicy for bundled-engine Chromium (GoLogin etc.) |
+| **FIX 9** | Dolby `vendor.dolby.media.c2@1.0-service` crash (RefBase ABI mismatch) — dropped from build |
+| **FIX 10** | Bypass charging made permanent (ueventd + sepolicy) |
+| **FIX 11** | Chromium sandbox crash: app-zygote **seccomp SIGSYS 149** — grant full isolated UID space in `ProcessList` (0 kills in stress vs 12 stock) |
+
 #### 3️⃣ Network — MikroTik & OpenWRT
 
 > Currently focused on real infra work — **porting OpenWRT for ZLT X28** + MikroTik production nets.
@@ -138,6 +158,7 @@ struct engineer {
 - 📡 Porting **OpenWRT for ZLT X28** — DTS, drivers, NAND, modem, Wi-Fi, LuCI
 - 🔧 Shipping **ESK Reborn** — Android 16/17 on 5.10 LTS, tested for daily + gaming
 - 📦 Maintaining **Infinity X A17 v4.0** trees for xaga
+- 🩹 Shipping the **MTK fix pack (FIX 1–11)** — [`infinity-xaga-fixes`](https://github.com/ENGRahsepar/infinity-xaga-fixes): VoLTE/IMS, EngineerMode, Dolby c2, bypass charging, app-zygote seccomp
 - 📶 Building **MikroTik** setups — Firewall / NAT / QoS / WireGuard VPN
 - 🧪 Lab: preloader / LK / eng firmware, MTD rebuilds, bypass-charger experiments on MTK
 

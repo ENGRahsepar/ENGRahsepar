@@ -29,7 +29,7 @@ struct engineer {
 > 6 years building and breaking **Linux & Android devices**. These days I'm deep in **custom kernels (ESK / 5.10 LTS)**, **Android device bring-up for Xiaomi xaga (MT6895)**, and **network engineering — MikroTik / RouterOS + OpenWRT porting (ZLT X28)**.
 
 - 🔥 Maintaining **ESK-Kernel-Reborn** for xaga family — POCO X4 GT / Redmi Note 11T Pro / K50i
-- 📱 Device maintainer — **Infinity X A17 v4.0**: device trees, vendor, HALs, sepolicy, ViPER, Dolby
+- 📱 Device maintainer — **Infinity X A17 v4.1**: device trees, vendor, HALs, sepolicy, ViPER, Dolby
 - 🌐 Network engineer — **MikroTik / RouterOS**, firewall / NAT / QoS / VPN, **OpenWRT porting & bring-up for ZLT X28**
 - 🛠️ Low-level tinkerer — preloader, LK, sec_cfg, MTD, eng firmware (check my local lab 👀)
 
@@ -86,13 +86,13 @@ struct engineer {
 | **[ESK-Kernel-Reborn-Releases](https://github.com/ENGRahsepar/ESK-Kernel-Reborn-Releases)** ⭐3 | ESK Reborn releases — xaga family · Google android12-5.10 base · Android 16/17 · Linux 5.10 LTS · ReSukiSU / SUSFS / LXC | `C` `Kernel` `5.10 LTS` |
 | **[android_kernel_xiaomi_mt6895](https://github.com/ENGRahsepar/android_kernel_xiaomi_mt6895)** ⭐2 | ESK Kernel source for xaga(in)/xagapro(in) — POCO X4 GT | `C` `MT6895` |
 
-#### 2️⃣ Android — Infinity X A17 v4.0 Device Bring-up
+#### 2️⃣ Android — Infinity X A17 v4.1 Device Bring-up
 
 > Full device stack I co-maintain for **POCO X4 GT (xaga)** with coolcatvn + xaga devs:
 
 | Project | Description |
 |---|---|
-| **[android_device_xiaomi_xaga](https://github.com/ENGRahsepar/android_device_xiaomi_xaga)** | Device tree — Infinity X A17 v4.0 |
+| **[android_device_xiaomi_xaga](https://github.com/ENGRahsepar/android_device_xiaomi_xaga)** | Device tree — Infinity X A17 v4.1 |
 | **[android_device_xiaomi_mt6895-common](https://github.com/ENGRahsepar/android_device_xiaomi_mt6895-common)** | Common tree MT6895 |
 | **[android_vendor_xiaomi_xaga](https://github.com/ENGRahsepar/android_vendor_xiaomi_xaga)** | Vendor blobs (16.2 → 17.0 mirror) |
 | **[android_vendor_xiaomi_mt6895-common](https://github.com/ENGRahsepar/android_vendor_xiaomi_mt6895-common)** | Common vendor |
@@ -157,7 +157,7 @@ struct engineer {
 
 - 📡 Porting **OpenWRT for ZLT X28** — DTS, drivers, NAND, modem, Wi-Fi, LuCI
 - 🔧 Shipping **ESK Reborn** — Android 16/17 on 5.10 LTS, tested for daily + gaming
-- 📦 Maintaining **Infinity X A17 v4.0** trees for xaga
+- 📦 Maintaining **Infinity X A17 v4.1** trees for xaga
 - 🩹 Shipping the **MTK fix pack (FIX 1–11)** — [`infinity-xaga-fixes`](https://github.com/ENGRahsepar/infinity-xaga-fixes): VoLTE/IMS, EngineerMode, Dolby c2, bypass charging, app-zygote seccomp
 - 📶 Building **MikroTik** setups — Firewall / NAT / QoS / WireGuard VPN
 - 🧪 Lab: preloader / LK / eng firmware, MTD rebuilds, bypass-charger experiments on MTK
